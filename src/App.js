@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './Components/Button';
+import './Components/styles.css';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Button text="PRIMARY BUTTON" onClick={() => alert('primary button clicked')}/>
+        <Button text="secondary button" type="secondary" onClick={() => alert('secondary button clicked')}/>
       </header>
     </div>
   );

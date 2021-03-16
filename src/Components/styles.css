@@ -1,0 +1,143 @@
+@font-face {
+   font-family: 'SF Compact Display Thin';
+   font-style: normal;
+   font-weight: normal;
+   src: local('SF Compact Display Thin'), url('../Fonts/sf-compact-display-thin-58646eb43a785.woff') format('woff');
+}
+
+
+@font-face {
+   font-family: 'SF Compact Display Medium';
+   font-style: normal;
+   font-weight: normal;
+   src: local('SF Compact Display Medium'), url('../Fonts/sf-compact-display-medium-5864711817c30.woff') format('woff');
+}
+
+.button.primary:hover{
+   /* Primary / Normal */
+   cursor:pointer;
+
+   /* Auto Layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 12px 24px;
+
+
+   /* Ruby */
+
+   background: #CA4238;
+   /* Light / Blur-02 */
+
+   /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
+   border-radius: 100px;
+   border: 2px solid #CA4238;
+
+   /* Inside Auto Layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 50px 0px;
+
+   color: #FAFAFA;
+   font-size: 20px;
+   font-family: "SF Compact Display Medium";
+   line-height: 23px;
+}
+
+.button.primary {
+   /* Primary / Normal */
+   cursor:pointer;
+
+   /* Auto Layout */
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 12px 24px;
+
+   /* Light / Blur-02 */
+
+   /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
+   border-radius: 100px;
+   border: 2px solid #CA4238;
+
+   /* Inside Auto Layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 50px 0px;
+
+   color: #CA4238;
+   font-size: 20px;
+   font-family: "SF Compact Display Medium";
+   line-height: 23px;
+}
+
+.button.secondary:hover {
+   /* Secondary button */
+   cursor:pointer;
+
+   position: static;
+   height: 24px;
+   left: 0px;
+   top: 0px;
+
+   font-family: "SF Compact Display Medium";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   /* identical to box height */
+
+   text-transform: uppercase;
+   text-decoration: underline;
+
+   /* Ruby */
+
+   color: #CA4238;
+   background: none;
+   border:none;
+
+   /* Inside Auto Layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 8px;
+}
+
+.button.secondary {
+   /* Secondary button */
+   cursor:pointer;
+
+   position: static;
+   height: 24px;
+   left: 0px;
+   top: 0px;
+
+   font-family: "SF Compact Display Medium";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   /* identical to box height */
+
+   text-transform: uppercase;
+
+   /* Ruby */
+
+   color: #CA4238;
+   background: none;
+   border:none;
+
+   /* Inside Auto Layout */
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 8px;
+}
