@@ -1,23 +1,59 @@
 import React from "react";
+import Apple from "../Assets/Apple"
+import GooglePlay from "../Assets/GooglePlay"
 
 export default class Button extends React.Component {
     /**
      * Constructs a Button react component
      * @param {string} text - The text inside the button
-     * @param {string} type - (Optional) Button type: primary/secondary/nav
+     * @param {string} type - Button type: "primary"(default)/"secondary"/"nav"
      * @param {function reference} onClick - onClick listener
+     * @param {string} size - Size of font (optional)
+     * @param {string} color - Primary color of button. Default: red(CA4238)
+     * @param {string} icon - Show icon: "Apple"(app store) / "Google"(play store)
      * @returns Button component with [text]
      */
+    state = {
+        isSelected: false,
+        type: "primary",
+    };
+    // Sets a button to selected
+    toggleSelected = () => {
+        this.setState((prevState) => ({ isSelected: !prevState.isSelected }));
+    };
     render() {
-        if (this.props.type === "secondary") {
-            return (
-                <button className="button secondary">{this.props.text}</button>
-            );
-        } else if (this.props.type === "nav") {
-            return <button className="button header">{this.props.text}</button>;
-        } 
+        const type = this.props.type ? this.props.type : this.state.type;
+        const isSelected = this.props.isSelected
+            ? this.props.isSelected
+            : this.state.isSelected;
 
-        // Default type
-        return <button className="button primary" onClick={this.props.onClick}>{this.props.text}</button>;
+        return (
+            <button
+                className={`button ${type} ${isSelected ? "selected" : ""}`}
+                onClick={
+                    type === "nav"
+                        ? () => {
+                              this.toggleSelected();
+                              if (this.props.onClick) this.props.onClick();
+                          }
+                        : this.props.onClick
+                }
+                style={{
+                    fontSize: this.props.size ? this.props.size : "",
+                    background:
+                        type === "primary" && this.props.color
+                            ? this.props.color
+                            : "",
+                    color:
+                        type !== "primary" && this.props.color
+                            ? this.props.color
+                            : "",
+                }}
+            >
+                {this.props.icon === "Apple" && <Apple />}
+                {this.props.icon === "Google" && <GooglePlay />}
+                {this.props.text}
+            </button>
+        );
     }
 }
