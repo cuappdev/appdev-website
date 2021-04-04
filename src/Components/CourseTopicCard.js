@@ -15,12 +15,12 @@ export default class CourseTopicCard extends React.Component {
         return (
             <div className="card course">
                 <div className="card intro">
-                    <img src={icon} alt="" />
+                    <img className="icon" src={icon} alt="" />
                     <h3 className="card">{intro}</h3>
                 </div>
                 <h1 className="card">{header}</h1>
-                <div className="card content">
-                    <p className="card text">{description}</p>
+                <div className="card horizontal-content">
+                    <p className="card">{description}</p>
                     <img src={img} alt="" />
                 </div>
             </div>

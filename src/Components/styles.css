@@ -159,9 +159,25 @@
    width: 500px;
    height: 300px;
 
-   /* White */
+   background: #FAFAFA;
+   border-radius: 12px;
+}
+
+.card.hack-challenge {
+   float: left;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 48px;
+
+   position: static;
+   width: 1152px;
+   height: 400px;
 
    background: #FAFAFA;
+
+   border: 2px solid #E1E4E8;
+   box-sizing: border-box;
    border-radius: 12px;
 }
 
@@ -172,22 +188,25 @@
    padding: 0px;
 }
 
-.card.text {
+.card.horizontal-content {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align: left;
+}
+
+.card.vertical-content {
+   text-align: left;
+}
+
+p.card {
    font-family: SF Pro Display;
    font-style: normal;
    font-weight: 500;
    font-size: 18px;
    line-height: 150%;
-   text-align: left;
 
    color: #2F363D;
-}
-
-.card.content {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   padding: 0px;
 }
 
 h1.card {
@@ -215,5 +234,9 @@ h3.card {
    order: 1;
    align-self: center;
    flex-grow: 0;
-   margin: 0px 12px;
+   margin: 0px 0px;
+}
+
+.icon {
+   margin: 0px 12px 0px 0px;
 }
