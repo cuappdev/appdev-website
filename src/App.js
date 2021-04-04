@@ -1,10 +1,12 @@
 import designMockup from './Images/design-mockup.png';
 import hackChallengeMockup from "./Images/hack-challenge.png";
 import sunIcon from './Images/icon-sun.png';
-import './App.css';
+
 import Button from './Components/Button';
 import CourseTopicCard from './Components/CourseTopicCard';
 import HackChallengeCard from './Components/HackChallengeCard';
+
+import './App.css';
 import './Components/styles.css';
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
           appName="Crumble"
           description="Crumble is a cooking app in which the user types in the ingredients they’d like to use in cooking a meal and the app will provide a list of popular recipes that you can make using those ingredients."
           names={["Nathan Stack", "Will Tappen", "Beth Mieczkowski", "Yue Sun"]}
-          github="https://github.com/"
+          url="https://github.com/"
           img={hackChallengeMockup}
         />
         <CourseTopicCard

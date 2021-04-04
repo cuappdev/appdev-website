@@ -15,7 +15,7 @@ export default class Button extends React.Component {
             );
         } else if (this.props.type === "nav") {
             return <button className="button header">{this.props.text}</button>;
-        } 
+        }
 
         // Default type
         return <button className="button primary" onClick={this.props.onClick}>{this.props.text}</button>;

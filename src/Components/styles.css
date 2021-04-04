@@ -168,7 +168,7 @@
    display: flex;
    flex-direction: row;
    align-items: flex-start;
-   padding: 48px;
+   padding: 40px;
 
    position: static;
    width: 1152px;
@@ -186,17 +186,6 @@
    flex-direction: row;
    align-items: flex-start;
    padding: 0px;
-}
-
-.card.horizontal-content {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   text-align: left;
-}
-
-.card.vertical-content {
-   text-align: left;
 }
 
 p.card {
@@ -237,6 +226,36 @@ h3.card {
    margin: 0px 0px;
 }
 
+.horizontal-content {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   text-align: left;
+   gap: 10px;
+}
+
+.vertical-content {
+   text-align: left;
+}
+
 .icon {
    margin: 0px 12px 0px 0px;
+}
+
+a {
+   font-family: "SF Compact Display Medium";
+
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-decoration: none;
+   
+   text-transform: uppercase;
+   
+   color: #CA4238;
+}
+
+a:hover {
+   text-decoration: underline;
 }
