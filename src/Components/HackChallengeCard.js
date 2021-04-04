@@ -26,10 +26,7 @@ export default class HackChallengeCard extends React.Component {
           <p className="card">{description}</p>
           <h3 className="card">Designed & Developed By</h3>
           <p className="card">{names.join(", ")}</p>
-          <ExternalLink
-            text="Github"
-            url={url}
-          />
+          <ExternalLink text="Github" url={url} />
         </div>
       </div>
     )
