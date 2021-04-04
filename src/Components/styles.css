@@ -20,133 +20,74 @@
    src: local('SF Compact Display Medium'), url('../Fonts/sf-compact-display-medium-5864711817c30.woff') format('woff');
 }
 
-.button.primary:hover{
-   /* Primary / Normal */
+.button.primary{
    cursor:pointer;
-
-   /* Auto Layout */
-
    display: flex;
    flex-direction: row;
    align-items: center;
    padding: 12px 24px;
-
-
-   /* Ruby */
-
-   background: #CA4238;
-   /* Light / Blur-02 */
-
-   /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
    border-radius: 100px;
-   border: 2px solid #CA4238;
-
-   /* Inside Auto Layout */
-
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-   margin: 50px 0px;
-
-   color: #FAFAFA;
+   border: 0px solid #CA4238;
+   background-color: transparent;
+   text-transform: uppercase;
    font-size: 20px;
    font-family: "SF Compact Display Medium";
    line-height: 23px;
+   box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5);
+   margin: 0px 12px;
+   background: #CA4238;
+   color: #FAFAFA;
 }
 
-.button.primary {
-   /* Primary / Normal */
-   cursor:pointer;
-
-   /* Auto Layout */
-
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   padding: 12px 24px;
-
-   /* Light / Blur-02 */
-
-   /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
-   border-radius: 100px;
-   border: 2px solid #CA4238;
-
-   /* Inside Auto Layout */
-
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-   margin: 50px 0px;
-
-   color: #CA4238;
-   font-size: 20px;
-   font-family: "SF Compact Display Medium";
-   line-height: 23px;
+.button.primary:hover{
+   filter:saturate(70%)
 }
 
 .button.secondary:hover {
-   /* Secondary button */
-   cursor:pointer;
-
-   position: static;
-   height: 24px;
-   left: 0px;
-   top: 0px;
-
-   font-family: "SF Compact Display Medium";
-   font-style: normal;
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 24px;
-   /* identical to box height */
-
-   text-transform: uppercase;
    text-decoration: underline;
-
-   /* Ruby */
-
-   color: #CA4238;
-   background: none;
-   border:none;
-
-   /* Inside Auto Layout */
-
-   flex: none;
-   order: 0;
-   flex-grow: 0;
-   margin: 0px 8px;
 }
 
 .button.secondary {
-   /* Secondary button */
    cursor:pointer;
-
-   position: static;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
    height: 24px;
-   left: 0px;
-   top: 0px;
-
    font-family: "SF Compact Display Medium";
    font-style: normal;
    font-weight: 500;
    font-size: 20px;
    line-height: 24px;
-   /* identical to box height */
-
    text-transform: uppercase;
-
-   /* Ruby */
-
    color: #CA4238;
    background: none;
    border:none;
-
-   /* Inside Auto Layout */
-
-   flex: none;
-   order: 0;
-   flex-grow: 0;
    margin: 0px 8px;
+}
+
+.button.nav {
+   cursor:pointer;
+   position: static;
+   padding: 8px 16px;
+   font-family: "SF Compact Display Medium";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   text-transform: uppercase;
+   background: none;
+   border-radius: 100px;
+   border: none;
+   color: #050505;
+}
+
+.button.nav.selected {
+   background: #FAECEB;
+   color: #CA4238;
+}
+
+.button.nav:hover {
+   background: #E1E4E8;
 }
 
 .card.course {  
