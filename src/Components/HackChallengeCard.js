@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./css/Card.css";
+import "./css/HackChallengeCard.css";
 import ExternalLink from './ExternalLink';
 
 export default class HackChallengeCard extends React.Component {

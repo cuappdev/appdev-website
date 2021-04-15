@@ -13,22 +13,7 @@ export default function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <HackChallengeCard
-          award="Overall Winner"
-          appName="Crumble"
-          description="Crumble is a cooking app in which the user types in the ingredients they’d like to use in cooking a meal and the app will provide a list of popular recipes that you can make using those ingredients."
-          names={["Nathan Stack", "Will Tappen", "Beth Mieczkowski", "Yue Sun"]}
-          url="https://github.com/"
-          img={hackChallengeMockup}
-        />
-        <CourseTopicCard
-          icon={sunIcon}
-          intro="PRODUCT THINKING"
-          header="Designing the right thing"
-          description="Learn how to find the right problem space, do real user reserach, and ideate a variety of solutions using industry processes."
-          img={mockup}
-        />
-        <div
+      <div
           style={{
             margin: "10px",
             display: "flex",
@@ -75,6 +60,21 @@ export default function Home() {
             color="#D07000"
           />
         </div>
+        <HackChallengeCard
+          award="Overall Winner"
+          appName="Crumble"
+          description="Crumble is a cooking app in which the user types in the ingredients they’d like to use in cooking a meal and the app will provide a list of popular recipes that you can make using those ingredients."
+          names={["Nathan Stack", "Will Tappen", "Beth Mieczkowski", "Yue Sun"]}
+          url="https://github.com/"
+          img={hackChallengeMockup}
+        />
+        <CourseTopicCard
+          icon={sunIcon}
+          intro="PRODUCT THINKING"
+          header="Designing the right thing"
+          description="Learn how to find the right problem space, do real user reserach, and ideate a variety of solutions using industry processes."
+          img={mockup}
+        />
       </header>
     </div>
   );

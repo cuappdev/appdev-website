@@ -12,101 +12,16 @@
   border-radius: 12px;
 }
 
-.card.hack-challenge {
-  float: left;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 40px;
-
-  position: static;
-  width: 1152px;
-  height: 400px;
-
-  background: #FAFAFA;
-
-  border: 2px solid #E1E4E8;
-  box-sizing: border-box;
-  border-radius: 12px;
-}
-
-.card.intro {
+.card.course-intro {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
 }
 
-p.card {
-  font-family: "SF Pro Display Medium";
-  font-size: 18px;
-  line-height: 150%;
-  text-align: left;
-
-  color: #2F363D;
-}
-
-.card.content {
+.card.course-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
-}
-
-h1.card {
-  font-family: "SF Pro Display Bold";
-  font-size: 36px;
-  line-height: 43px;
-
-  color: #050505;
-}
-
-h3.card {
-  font-family: "SF Compact Display Regular";
-  font-size: 16px;
-  line-height: 19px;
-
-  text-transform: uppercase;
-
-  color: #586069;
-
-  flex: none;
-  order: 1;
-  align-self: center;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-
-.horizontal-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: left;
-  gap: 10px;
-}
-
-.vertical-content {
-  text-align: left;
-}
-
-.icon {
-  margin: 0px 12px 0px 0px;
-}
-
-a {
-  font-family: "SF Compact Display Medium";
-
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-decoration: none;
-
-  text-transform: uppercase;
-
-  color: #CA4238;
-}
-
-a:hover {
-  text-decoration: underline;
 }

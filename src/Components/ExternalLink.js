@@ -1,5 +1,6 @@
 import React from "react";
 
+import "./css/ExternalLink.css";
 import linkIcon from '../Images/icon-link.png';
 
 export default class ExternalLink extends React.Component {
