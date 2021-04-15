@@ -4,12 +4,33 @@ import sunIcon from "../Images/icon-sun.png";
 import "../App.css";
 import Button from "../Components/Button";
 import CourseTopicCard from "../Components/CourseTopicCard";
+import Blob from "../Components/Blob"
 import "../Components/styles.css";
+
+import landingimage from "../Images/appdevlanding.jpeg"
+import landingimage2 from "../Images/appdevlanding2.jpeg"
 
 export default function Home() {
     return (
         <div className="App">
             <header className="App-header">
+                <div className="blob_parent">
+                     <div style={{ marginRight:'20%'}}>
+                        <Blob blobid = 'lndblb3' color="#FAECEB" width='25%' scramble = '0.05'/>
+                    </div>
+                    <div>
+                        <Blob blobid = 'lndblb1' imagename={landingimage} width='35%'/>
+                    </div>
+                    <div style={{ marginLeft:'20%', marginTop:'20%'}}>
+                         <Blob blobid = 'lndblb2' color="#E1E4E8" width='20%' scramble = '0.05' />
+                    </div>
+                    <div style={{ marginLeft:'20%', marginTop:'1%'}}>
+                        <Blob blobid = 'lndblb4' imagename={landingimage2} width='25%'/>
+                    </div>
+
+                </div>
+                
+
                 <CourseTopicCard
                     icon={sunIcon}
                     intro="PRODUCT THINKING"
