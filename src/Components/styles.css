@@ -1,23 +1,36 @@
 @font-face {
-   font-family: 'SF Compact Display';
+   font-family: 'SF Compact Display Medium';
    font-style: normal;
    font-weight: normal;
-   src: local('SF Compact Display'), url('../Fonts/sf-compact-display-regular.woff') format('woff');
+   src: local('SF Compact Display Medium'), url('../Fonts/SF-Compact-Display-Medium.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'SF Compact Display Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('SF Compact Display Regular'), url('../Fonts/SF-Compact-Display-Regular.woff') format('woff');
 }
 
 @font-face {
    font-family: 'SF Compact Display Thin';
    font-style: normal;
    font-weight: normal;
-   src: local('SF Compact Display Thin'), url('../Fonts/sf-compact-display-thin-58646eb43a785.woff') format('woff');
+   src: local('SF Compact Display Thin'), url('../Fonts/SF-Compact-Display-Thin.woff') format('woff');
 }
 
+@font-face {
+   font-family: 'SF Pro Display Bold';
+   font-style: normal;
+   font-weight: bold;
+   src: local('SF Pro Display Bold'), url('../Fonts/SF-Pro-Display-Bold.otf') format('otf');
+}
 
 @font-face {
-   font-family: 'SF Compact Display Medium';
+   font-family: 'SF Pro Display Medium';
    font-style: normal;
-   font-weight: normal;
-   src: local('SF Compact Display Medium'), url('../Fonts/sf-compact-display-medium-5864711817c30.woff') format('woff');
+   font-weight: 500;
+   src: local('SF Pro Display Medium'), url('../Fonts/SF-Pro-Display-Medium.otf') format('otf');
 }
 
 .button.primary{
@@ -114,9 +127,7 @@
 }
 
 .card.text {
-   font-family: SF Pro Display;
-   font-style: normal;
-   font-weight: 500;
+   font-family: "SF Pro Display Medium";
    font-size: 18px;
    line-height: 150%;
    text-align: left;
@@ -132,9 +143,7 @@
 }
 
 h1.card {
-   font-family: SF Pro Display;
-   font-style: normal;
-   font-weight: bold;
+   font-family: "SF Pro Display Bold";
    font-size: 36px;
    line-height: 43px;
 
@@ -142,9 +151,7 @@ h1.card {
 }
 
 h3.card {
-   font-family: SF Compact Display;
-   font-style: normal;
-   font-weight: 500;
+   font-family: "SF Compact Display Regular";
    font-size: 16px;
    line-height: 19px;
 
