@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./styles.css";
 import { Link } from "react-router-dom";
+
+import "./css/NavigationBar.css"
 import Logo from "../Assets/Logo";
 
 // Source: https://www.youtube.com/watch?v=T2MhVxJxsL0

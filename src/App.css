@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'SF Compact Display Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Compact Display Medium'), url('./Fonts/SF-Compact-Display-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Compact Display Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Compact Display Regular'), url('./Fonts/SF-Compact-Display-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Compact Display Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SF Compact Display Thin'), url('./Fonts/SF-Compact-Display-Thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('SF Pro Display Bold'), url('./Fonts/SF-Pro-Display-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'SF Pro Display Medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('SF Pro Display Medium'), url('./Fonts/SF-Pro-Display-Medium.otf') format('otf');
+}
+
 .App {
   text-align: center;
 }

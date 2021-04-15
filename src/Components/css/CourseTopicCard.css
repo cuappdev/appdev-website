@@ -1,0 +1,62 @@
+.card.course {  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px;
+
+  position: static;
+  width: 500px;
+  height: 300px;
+
+  /* White */
+
+  background: #FAFAFA;
+  border-radius: 12px;
+}
+
+.card.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.card.text {
+  font-family: "SF Pro Display Medium";
+  font-size: 18px;
+  line-height: 150%;
+  text-align: left;
+
+  color: #2F363D;
+}
+
+.card.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+h1.card {
+  font-family: "SF Pro Display Bold";
+  font-size: 36px;
+  line-height: 43px;
+
+  color: #050505;
+}
+
+h3.card {
+  font-family: "SF Compact Display Regular";
+  font-size: 16px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+
+  color: #586069;
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 12px;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./css/CourseTopicCard.css";
+
 export default class CourseTopicCard extends React.Component {
     /**
      * Constructs a course topic card react component

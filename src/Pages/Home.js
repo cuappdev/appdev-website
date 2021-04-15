@@ -1,10 +1,11 @@
 import React from "react";
-import mockup from "../Images/mockup.png";
-import sunIcon from "../Images/icon-sun.png";
+
 import "../App.css";
+
 import Button from "../Components/Button";
 import CourseTopicCard from "../Components/CourseTopicCard";
-import "../Components/styles.css";
+import mockup from "../Images/mockup.png";
+import sunIcon from "../Images/icon-sun.png";
 
 export default function Home() {
     return (

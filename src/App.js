@@ -1,11 +1,7 @@
-import mockup from "./Images/mockup.png";
-import sunIcon from "./Images/icon-sun.png";
-import "./App.css";
-import Button from "./Components/Button";
-import CourseTopicCard from "./Components/CourseTopicCard";
-import "./Components/styles.css";
-import NavigationBar from "./Components/NavigationBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import "./App.css";
+import NavigationBar from "./Components/NavigationBar";
 import Apply from "./Pages/Apply";
 import Apps from "./Pages/Apps";
 import Courses from "./Pages/Courses";
