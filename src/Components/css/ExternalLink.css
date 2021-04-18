@@ -1,0 +1,17 @@
+a {
+  font-family: "SF Compact Display Medium";
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  color: #CA4238;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+.card.hack-challenge {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px;
+
+  position: static;
+  width: 1152px;
+  height: 400px;
+
+  background: #FAFAFA;
+
+  border: 2px solid #E1E4E8;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
