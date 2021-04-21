@@ -1,0 +1,42 @@
+footer {
+    background: #EFF1F4;
+    height: 59px;
+    position: absolute;
+    width: 100%;
+}
+
+/* footer::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+footer p{
+    justify-self: start;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 144px;
+    top: 8px;
+    width: fit-content;
+
+    /* font-family: SF Pro Text; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    color: #6A737D;
+}
+footer p a{
+    color: #6A737D;
+}
+
+.footerSocialMedia{
+    position: absolute;
+    right: 144px;
+    bottom: 10px;
+}
+.footerSocialMedia a{
+    padding-left: 20px;
+}

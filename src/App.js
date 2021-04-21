@@ -12,6 +12,7 @@ import Courses from "./Pages/Courses";
 import Home from "./Pages/Home";
 import Support from "./Pages/Support";
 import Team from "./Pages/Team";
+import Footer from "./Components/Footer";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/support" exact component={Support} />
                 <Route path="/team" exact component={Team} />
             </Switch>
+            <Footer />
         </Router>
     );
 }
