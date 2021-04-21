@@ -1,0 +1,27 @@
+.card.course {  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px;
+
+  position: static;
+  width: 500px;
+  height: 300px;
+
+  background: #FAFAFA;
+  border-radius: 12px;
+}
+
+.card.course-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.card.course-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
