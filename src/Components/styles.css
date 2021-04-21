@@ -334,14 +334,3 @@ h3.card {
     display: none;
   }
 }
-
-/* BLOBS */
-
-.blob_parent {
-  display: grid;
-}
-
-.blob_parent div {
-  grid-column: 1;
-  grid-row: 1;
-}

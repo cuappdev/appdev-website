@@ -1,5 +1,8 @@
 import React from "react";
 
+import "./css/Card.css";
+import "./css/CourseTopicCard.css";
+
 export default class CourseTopicCard extends React.Component {
     /**
      * Constructs a course topic card react component
@@ -14,12 +17,12 @@ export default class CourseTopicCard extends React.Component {
         const { intro, icon, header, description, img } = this.props;
         return (
             <div className="card course">
-                <div className="card intro">
-                    <img src={icon} alt="" />
+                <div className="card course-intro">
+                    <img className="icon" src={icon} alt="" />
                     <h3 className="card">{intro}</h3>
                 </div>
                 <h1 className="card">{header}</h1>
-                <div className="card content">
+                <div className="card course-content">
                     <p className="card text">{description}</p>
                     <img src={img} alt="" />
                 </div>
