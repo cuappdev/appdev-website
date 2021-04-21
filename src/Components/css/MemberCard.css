@@ -1,0 +1,242 @@
+.memberD.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  margin: 12px;
+  border: none;
+  position: static;
+  width: 756px;
+  height: 372px;
+
+  border-radius: 12px;
+
+  /* White */
+}
+
+.memberD.image {
+  width: 372px;
+  height: 372px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.memberD.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 384px;
+  height: 372px;
+  padding-left: 11px;
+  padding-top: 16px;
+}
+
+.memberD.Headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 336px;
+  height: 140px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.memberD.Caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 336px;
+  height: 135px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.memberD.captionLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: static;
+  width: 336px;
+  height: 45px;
+  padding-top: 12px;
+}
+
+h5.memberD {
+  font-family: "SF Compact Display Medium";
+
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height, or 21px */
+
+  /* Gray / Gray-07 */
+
+  color: #2f363d;
+
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 8px;
+}
+
+h4.memberD {
+  font-family: "SF Compact Display Medium";
+
+  font-size: 16px;
+  line-height: 16px;
+
+  /* Gray / Gray-05 */
+
+  text-transform: uppercase;
+
+  color: #586069;
+  font-weight: 500;
+
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.memberD.bottombar {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 326px;
+  padding-top: 12px;
+  margin-bottom: 26.5px;
+}
+.memberD.horizontal {
+  margin-left: 24px;
+}
+.memberD.icon2 {
+  position: static;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+h1.memberD {
+  font-family: "SF Compact Display Medium";
+  font-weight: bolder;
+
+  position: relative;
+  font-size: 36px;
+  line-height: 43px;
+
+  /* Black */
+
+  color: #050505;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+h2.memberD {
+  font-family: "SF Compact Display Medium";
+  width: 300px;
+  font-size: 16px;
+  line-height: 24px;
+
+  font-weight: 500;
+  text-align: left;
+
+  color: #050505;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-style: normal;
+}
+
+.memberP.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  margin: 24px;
+  box-shadow: 12dp;
+  position: static;
+  width: 252px;
+  height: 414px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+
+  border-radius: 12px;
+
+  /* White */
+}
+
+.memberP.image {
+  width: 252px;
+  height: 315px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.memberP.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 252px;
+  height: 99px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+h4.memberP {
+  font-family: "SF Compact Display Medium";
+
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Gray / Gray-05 */
+
+  text-transform: uppercase;
+
+  color: #586069;
+  font-weight: 500;
+
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h1.memberP {
+  font-family: "SF Compact Display Medium";
+  font-weight: bolder;
+
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+
+  /* identical to box height */
+
+  /* Gray / Gray-07 */
+
+  color: #2f363d;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+h5.memberP {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-size: 14px;
+  position: relative;
+
+  line-height: 14px;
+  font-weight: 500;
+  top: 3px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+
+  /* Gray / Gray-03 */
+
+  color: #959da5;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

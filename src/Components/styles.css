@@ -1,0 +1,316 @@
+@font-face {
+  font-family: "SF Compact Display";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display"),
+    url("../Font/sf-compact-display-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Compact Display Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Thin"),
+    url("../Font/sf-compact-display-thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Compact Display Medium"),
+    url("../Font/sf-compact-display-medium.woff") format("woff");
+}
+.button.primary:hover {
+  /* Primary / Normal */
+  cursor: pointer;
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+
+  /* Ruby */
+
+  background: #ca4238;
+  /* Light / Blur-02 */
+
+  /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
+  border-radius: 100px;
+  border: 2px solid #ca4238;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 50px 0px;
+
+  color: #fafafa;
+  font-size: 20px;
+  font-family: "SF Compact Display Medium";
+  line-height: 23px;
+}
+
+.button.primary {
+  /* Primary / Normal */
+  cursor: pointer;
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+
+  /* Light / Blur-02 */
+
+  /* box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5); */
+  border-radius: 100px;
+  border: 2px solid #ca4238;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 50px 0px;
+
+  color: #ca4238;
+  font-size: 20px;
+  font-family: "SF Compact Display Medium";
+  line-height: 23px;
+}
+
+.button.secondary:hover {
+  /* Secondary button */
+  cursor: pointer;
+
+  position: static;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  /* Ruby */
+
+  color: #ca4238;
+  background: none;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.button.secondary {
+  /* Secondary button */
+  cursor: pointer;
+
+  position: static;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Ruby */
+
+  color: #ca4238;
+  background: none;
+  border: none;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.course.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  margin: 12px;
+  border: none;
+  position: static;
+  width: 270px;
+  height: 262px;
+
+  border-radius: 12px;
+
+  /* White */
+}
+
+.course.image {
+  width: 270px;
+  height: 147px;
+}
+
+.course.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 246px;
+  height: 52px;
+  padding-left: 11px;
+  padding-top: 16px;
+}
+
+h4.course {
+  font-family: "SF Compact Display";
+
+  font-style: normal;
+  color: #2f363d;
+  line-height: 43px;
+  font-weight: bold;
+
+  font-size: 16px;
+  line-height: 19px;
+  flex: none;
+  flex-grow: 0;
+}
+
+h1.course {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 24px;
+  line-height: 20px;
+  color: #2f363d;
+  flex: none;
+  flex-grow: 0;
+}
+.learnmore.text {
+  font-family: "SF Compact Display";
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1778f2;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-top: 6px;
+}
+.learnmore.icon {
+  margin-left: 8px;
+}
+
+.memberP.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+  margin: 12px;
+  box-shadow: 12dp;
+  position: static;
+  width: 252px;
+  height: 414px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+
+  border-radius: 12px;
+
+  /* White */
+}
+
+.memberP.image {
+  width: 252px;
+  height: 315px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.memberP.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  width: 252px;
+  height: 99px;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+h4.memberP {
+  font-family: "SF Compact Display Medium";
+
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Gray / Gray-05 */
+
+  text-transform: uppercase;
+
+  color: #586069;
+  font-weight: 500;
+
+  font-style: normal;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h1.memberP {
+  font-family: "SF Compact Display Medium";
+  font-weight: bolder;
+
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+
+  /* identical to box height */
+
+  /* Gray / Gray-07 */
+
+  color: #2f363d;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+h5.memberP {
+  font-family: "SF Compact Display Medium";
+  font-style: normal;
+  font-size: 14px;
+  position: relative;
+
+  line-height: 14px;
+  font-weight: 500;
+  top: 3px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+
+  /* Gray / Gray-03 */
+
+  color: #959da5;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
