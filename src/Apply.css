@@ -1,3 +1,6 @@
+.apply-container {
+}
+
 .container-1 {
   background-image: url(./Images/applybackground.svg);
 
@@ -11,6 +14,25 @@
   padding-top: 52.78%;
   display: block;
   content: "";
+}
+
+.container-2 {
+  background-image: url(./Images/applygraybackground.svg);
+
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.container-2:after {
+  padding-top: 33.68%;
+  display: block;
+  content: "";
+}
+
+.container-3 {
+  padding: 5%;
 }
 
 .apply-home {
@@ -29,16 +51,63 @@
   align-items: center;
 }
 
+.apply-center2 {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10%;
+  align-items: center;
+}
+
 .apply-center > img {
   width: 5%;
 }
 
-.apply-createjoy {
+.apply-largetext {
   font-family: "SF Compact Display Medium";
   font-size: 5vw;
 }
 
-.apply-find {
+.apply-smalltext {
   font-family: "SF Compact Display Medium";
   font-size: 1.5vw;
+}
+
+.apply-medtext {
+  font-family: "SF Compact Display Medium";
+  font-size: 3vw;
+}
+
+.apply-textblock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 2%;
+}
+
+.recruit-textblock {
+  display: flex;
+  flex-direction: column;
+}
+
+.application-status {
+  font-family: "SF Compact Display Medium";
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.2%;
+  border-radius: 5px;
+  color: #ca4238;
+  background-color: #faeceb;
+  width: 10%;
+  font-size: 0.7vw;
+}
+
+.apply-recruitment-mid {
+  align-items: center;
+}
+
+.apply-cards {
+  display: flex;
+  flex-direction: row;
 }
