@@ -1,0 +1,44 @@
+.container-1 {
+  background-image: url(./Images/applybackground.svg);
+
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.container-1:after {
+  padding-top: 52.78%;
+  display: block;
+  content: "";
+}
+
+.apply-home {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.apply-center {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 15%;
+  align-items: center;
+}
+
+.apply-center > img {
+  width: 5%;
+}
+
+.apply-createjoy {
+  font-family: "SF Compact Display Medium";
+  font-size: 5vw;
+}
+
+.apply-find {
+  font-family: "SF Compact Display Medium";
+  font-size: 1.5vw;
+}

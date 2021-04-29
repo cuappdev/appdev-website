@@ -1,0 +1,54 @@
+.card.learn {
+  display: flex;
+  flex-direction: column;
+
+  margin: 5px;
+  width: 20%;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.learn-top {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.learn-top-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-img {
+  margin-right: 5%;
+  margin-top: 3%;
+  width: 15%;
+  height: auto;
+}
+
+.learn-title {
+  font-family: "SF Pro Display Bold";
+  color: #050505;
+  font-size: 0.6vw;
+
+  margin-top: -10%;
+}
+
+.learn-date {
+  font-family: "SF Compact Display Regular";
+  text-transform: uppercase;
+
+  color: #586069;
+
+  font-size: 0.6vw;
+}
+
+.learn-desc {
+  font-family: "SF Pro Display Medium";
+  color: #586069;
+
+  margin-top: -5%;
+  font-size: 0.7vw;
+}

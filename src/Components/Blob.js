@@ -13,7 +13,7 @@ function Blob(props){
     const BlobB = new DrawBlob({
       canvas: document.getElementById(canid),
       maskedElement: document.getElementById(imgid),
-      speed: 500,
+      speed: 800,
       scramble: (props.scramble) ? 0.1 : props.scramble,
       color: (props.color !== undefined) ? props.color : "#FFFFFF"
     });

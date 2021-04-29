@@ -9,6 +9,7 @@ import HackChallengeCard from "../Components/HackChallengeCard";
 import hackChallengeMockup from "../Images/hack-challenge.png";
 import mockup from "../Images/mockup.png";
 import sunIcon from "../Images/icon-sun.png";
+import Blob from "../Components/Blob"
 
 import landingimage from "../Images/appdevlanding.jpeg"
 import landingimage2 from "../Images/appdevlanding2.jpeg"
