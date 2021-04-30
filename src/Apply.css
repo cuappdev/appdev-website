@@ -31,7 +31,7 @@
   content: "";
 }
 
-.container-3 {
+.container-3-padded {
   padding: 5%;
 }
 
@@ -71,6 +71,9 @@
 .apply-smalltext {
   font-family: "SF Compact Display Medium";
   font-size: 1.5vw;
+
+  text-align: center;
+  width: 55%;
 }
 
 .apply-medtext {
@@ -105,6 +108,7 @@
 
 .apply-recruitment-mid {
   align-items: center;
+  width: 100%;
 }
 
 .apply-cards {

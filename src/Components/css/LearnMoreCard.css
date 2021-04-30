@@ -6,9 +6,9 @@
   width: 20%;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 3px;
+  padding: 1%;
   padding-left: 1%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .learn-top {
@@ -32,7 +32,7 @@
 .learn-title {
   font-family: "SF Pro Display Bold";
   color: #050505;
-  font-size: 0.6vw;
+  font-size: 0.55vw;
 
   margin-top: -10%;
 }
