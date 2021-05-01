@@ -22,7 +22,7 @@ export default class HackChallengeCard extends React.Component {
         <div className="card">
           <img src={img} alt="" />
         </div>
-        <div className="card vertical-content" style={{ "padding-left": "40px" }}>
+        <div className="card vertical-content" style={{ paddingLeft: "40px" }}>
           <h3 className="card">{award}</h3>
           <h1 className="card">{appName}</h1>
           <p className="card">{description}</p>

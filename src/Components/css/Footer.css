@@ -1,0 +1,77 @@
+footer {
+    background: #EFF1F4;
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid rgb(225, 228, 232);
+}
+
+footer p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6A737D;
+}
+footer p a{
+    color: #6A737D;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+footer p a:hover{
+    font-weight: 700;
+}
+
+.footerSocialMedia svg:hover{
+    border-bottom: 1px solid #6A737D;
+}
+
+@media screen and (min-width: 1025px) {
+    footer {
+        height: 59px;
+    }
+    footer p{
+        justify-self: start;
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 100px;
+        top: 6px;
+        width: fit-content;
+    }
+    .footerSocialMedia {
+        position: absolute;
+        right: 100px;
+        bottom: 13px;
+    }
+    .footerSocialMedia a {
+        padding-left: 20px;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    footer p{
+        display: block;
+        padding-left: 67px;
+        padding-right: 67px;
+        text-align: center;
+    }
+    .footerSocialMedia {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footerSocialMedia a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+    .footerSocialMedia {
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+}
