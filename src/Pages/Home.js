@@ -3,6 +3,7 @@ import React from "react";
 import "../App.css";
 import "../Components/css/Blobs.css"
 
+import Blob from "../Components/Blob"
 import Button from "../Components/Button";
 import CourseTopicCard from "../Components/CourseTopicCard";
 import HackChallengeCard from "../Components/HackChallengeCard";
