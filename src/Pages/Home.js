@@ -24,13 +24,13 @@ export default function Home() {
             <Blob blobid = 'lndblb3' color="#FAECEB" width='25%' scramble = '0.05'/>
             </div>
             <div>
-                <Blob blobid = 'lndblb1' imagename={landingimage} width='35%'/>
+                <Blob blobid = 'lndblb1' image={landingimage} width='35%'/>
             </div>
             <div style={{ marginLeft:'20%', marginTop:'20%'}}>
                     <Blob blobid = 'lndblb2' color="#E1E4E8" width='20%' scramble = '0.05' />
             </div>
             <div style={{ marginLeft:'20%', marginTop:'1%'}}>
-                <Blob blobid = 'lndblb4' imagename={landingimage2} width='25%'/>
+                <Blob blobid = 'lndblb4' image={landingimage2} width='25%'/>
             </div>
 
         </div>
