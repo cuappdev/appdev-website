@@ -1,10 +1,17 @@
 import React, { useEffect } from "react"
 import DrawBlob, { BlobType } from 'blob-animated';
-import defaultimg from '../Images/appdevlanding.jpeg'
 
 function Blob(props){
 
-  //Each Blob must have their own unique canvas and image id. Unique across the entire project
+   /**
+     * Constructs a Dyanic Blob component
+     * @param {string} blobid - Each Blob must have their own unique canvas and image id. Unique across the entire project
+     * @param {image} image - The image object that will fill the blob
+     * @param {int} scramble - Scramble rate of dynamic blob
+     * @param {string} color - Hex value of a colored blob
+     * @param {int} width - Width of the blob 
+     * @returns Dynamic Blob
+     */
   
   let canid = props.blobid + 'can'
   let imgid = props.blobid
@@ -33,7 +40,7 @@ function Blob(props){
     return(
       <div >
          <canvas id= {canid} style={{'width': props.width}} /> 
-         <img id = {imgid} src={props.imagename} style={{ 'display': 'none'}}/>
+         <img id = {imgid} src={props.image} style={{ 'display': 'none'}}/>
       </div>
   
     )
