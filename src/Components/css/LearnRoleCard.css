@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+.card.role {
+  display: flex;
+  flex-direction: column;
+
+  width: 1152px;
+  height: 583px;
+
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+  padding: 1%;
+  padding-left: 1%;
+  border-radius: 10px;
+
+  background-color: #fafafa;
+}
+
+.role-holder {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+}
+
+.description-holder {
+  width: 45%;
+}
+
+.role-right-holder {
+  width: 55%;
+
+  margin-left: 5%;
+}
+
+.declist-holder {
+  margin-bottom: 5%;
+}
+
+.skills-holder ul li {
+  list-style-position: outside;
+  margin-bottom: 5%;
+}
+
+.questions-holder {
+  margin-top: 10%;
+}
+
+.card.role h3 {
+  font-family: "SF Compact Display Thin";
+  text-transform: uppercase;
+
+  color: #586069;
+
+  font-size: 16px;
+
+  margin-bottom: 5%;
+}
+
+.card.role p {
+  font-family: "SF Pro Display Medium";
+
+  font-size: 24px;
+
+  margin-bottom: 5%;
+}
+
+.card.role li {
+  font-family: "SF Pro Display Medium";
+
+  font-size: 24px;
+}
+
+.question-lower {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  margin-left: 5%;
+}
+
+.question-lead {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 2%;
+}
+
+.card.role h2 {
+  font-family: "SF Pro Display Medium";
+  font-size: 24px;
+  margin-top: -6%;
+  margin-bottom: 0;
+}
+
+.card.role img {
+  width: 15%;
+  border-radius: 50%;
+}

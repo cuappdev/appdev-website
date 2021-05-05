@@ -1,11 +1,10 @@
-.card.learn {
+.card.event {
   display: flex;
   flex-direction: column;
 
-  margin: 5px;
   width: 20%;
 
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
   padding: 1%;
   padding-left: 1%;
   border-radius: 10px;
@@ -29,27 +28,50 @@
   height: auto;
 }
 
-.learn-title {
+.card.event h1 {
   font-family: "SF Pro Display Bold";
   color: #050505;
-  font-size: 0.55vw;
+  font-size: 1vw;
 
-  margin-top: -10%;
+  margin-top: -4%;
 }
 
-.learn-date {
+.card.event h3 {
   font-family: "SF Compact Display Regular";
   text-transform: uppercase;
 
   color: #586069;
 
-  font-size: 0.6vw;
+  font-size: 0.7vw;
 }
 
-.learn-desc {
+.card.event p {
   font-family: "SF Pro Display Medium";
   color: #586069;
 
-  margin-top: -5%;
-  font-size: 0.7vw;
+  margin-top: -2%;
+  font-size: 0.8vw;
+}
+
+.external-link {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  align-content: center;
+
+  font-family: "SF Compact Display Medium";
+
+  text-transform: uppercase;
+
+  font-size: 0.75vw;
+  color: #1778f2;
+}
+
+.external-link img {
+  width: 15%;
+}
+
+.external-link:hover {
+  text-decoration: underline;
 }
