@@ -1,77 +1,129 @@
-.card.event {
-  display: flex;
-  flex-direction: column;
+@media only screen and (max-width: 600px) {
+  .card.event {
+    display: flex;
+    flex-direction: column;
 
-  width: 20%;
+    width: 324px;
+    height: 180px;
 
-  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
-  padding: 1%;
-  padding-left: 1%;
-  border-radius: 10px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+
+    flex: 0 0 auto;
+  }
+
+  .learn-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    margin-top: 3%;
+  }
+
+  .learn-top-right {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 5%;
+  }
+
+  .learn-img {
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 10%;
+    border-radius: 50%;
+  }
+
+  .card.event h1 {
+    font-family: "SF Pro Display Semibold";
+    color: #050505;
+    font-size: 18px;
+
+    margin-top: -4%;
+  }
+
+  .card.event h3 {
+    font-family: "SF Compact Display Regular";
+    text-transform: uppercase;
+
+    color: #586069;
+
+    font-size: 14px;
+  }
+
+  .card.event p {
+    font-family: "SF Pro Display Medium";
+    color: #586069;
+
+    line-height: 150%;
+
+    margin-top: -1%;
+    font-size: 12px;
+  }
 }
 
-.learn-top {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
+@media only screen and (min-width: 600px) {
+  .card.event {
+    display: flex;
+    flex-direction: column;
 
-.learn-top-right {
-  display: flex;
-  flex-direction: column;
-}
+    width: 472px;
+    height: 206px;
 
-.learn-img {
-  margin-right: 5%;
-  margin-top: 3%;
-  width: 15%;
-  height: auto;
-}
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
 
-.card.event h1 {
-  font-family: "SF Pro Display Bold";
-  color: #050505;
-  font-size: 1vw;
+    flex: 0 0 auto;
+  }
 
-  margin-top: -4%;
-}
+  .learn-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
-.card.event h3 {
-  font-family: "SF Compact Display Regular";
-  text-transform: uppercase;
+  .learn-top-right {
+    display: flex;
+    flex-direction: column;
+  }
 
-  color: #586069;
+  .learn-img {
+    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 15%;
+    height: auto;
+  }
 
-  font-size: 0.7vw;
-}
+  .card.event h1 {
+    font-family: "SF Pro Display Semibold";
+    color: #050505;
+    font-size: 24px;
 
-.card.event p {
-  font-family: "SF Pro Display Medium";
-  color: #586069;
+    margin-top: -4%;
+  }
 
-  margin-top: -2%;
-  font-size: 0.8vw;
-}
+  .card.event h3 {
+    font-family: "SF Compact Display Regular";
+    text-transform: uppercase;
 
-.external-link {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 5px;
+    color: #586069;
 
-  align-content: center;
+    font-size: 16px;
+  }
 
-  font-family: "SF Compact Display Medium";
+  .card.event p {
+    font-family: "SF Pro Display Medium";
+    color: #586069;
 
-  text-transform: uppercase;
+    line-height: 150%;
 
-  font-size: 0.75vw;
-  color: #1778f2;
-}
-
-.external-link img {
-  width: 15%;
-}
-
-.external-link:hover {
-  text-decoration: underline;
+    margin-top: -1%;
+    font-size: 14px;
+  }
 }

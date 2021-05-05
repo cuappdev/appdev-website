@@ -2,13 +2,19 @@ import React from "react";
 import LearnMoreCard from "../Components/LearnEventCard";
 import LearnRoleCard from "../Components/LearnRoleCard"
 
+
+import c1background from '../Images/applybackground.svg'
 import appdevlogo from '../Images/appdevlogosquare.svg'
 import teamlead from '../Images/amandayang.svg'
+import subteamlogos from '../Images/subteamicons.svg'
+import quotes from '../Images/quotes.svg'
+import headshot from '../Images/amandayang.svg'
 import timeline from '../Images/applytimeline.svg'
 
 import "../Components/css/Card.css";
 import "../Components/css/CourseTopicCard.css";
 import "../Apply.css"
+import Button from "../Components/Button";
 
 function Apply(props){
 
@@ -17,16 +23,27 @@ function Apply(props){
         <div className="apply-container">
 
             <div className="container-1">
+
+                <img className="desktop-only" src={c1background}/>
+
                 <div className="apply-home">
 
-                    <div className="apply-center"
-                        style={{marginTop:'15%'}}>
-                        <img src={appdevlogo}/>
-                        <h className="apply-largetext">Create joy at Cornell</h>
+                    <div className="apply-center">
+                        <img className="desktop-only" src={appdevlogo}/>
+                        <h className="apply-largetext">Create joy at Cornell.</h>
 
                         <div className="apply-textblock">
                             <h className="apply-smalltext">Find your fit and help us build real apps that impact students everyday.</h>
                         </div>
+
+                        <div className="mobile-only apply-button">
+                            <Button
+                                text="Apply Now"
+                            />
+                        </div>
+
+                        <img className="mobile-only sub-logos" src={subteamlogos}/>
+                        
                        
                     </div>
 
@@ -74,7 +91,8 @@ function Apply(props){
 
                   <h className="apply-medtext">Hear more about our work and chat with members</h>
 
-                  <div className="apply-cards container-3-padded">
+                  <div className="apply-event-cards container-3-padded">
+
                     <LearnMoreCard
                     date = "Monday, September 16"
                     title = "Cornell AppDev Info Session"
@@ -114,11 +132,52 @@ function Apply(props){
                             recskills={["Some Experience with Figma, Setch, or Equivalent", "Completion of Intro to Digital Product Design course or prior design experience"]}
                             leadimg={teamlead}
                         />
+                        <LearnRoleCard
+                            team="Design"
+                            name="Amanda Yang"
+                            description={["As a Product Designer on Cornell AppDev, you are a director of user experience. You take complex problems and create joy through elegant design solutions.", 
+                                           "You work on all stages of the design process, including user research, product thinking, iterating through feedback, prototyping, and user testing.",
+                                            "Working with developers, you design real apps used by real people everyday."]}
+                            recskills={["Some Experience with Figma, Setch, or Equivalent", "Completion of Intro to Digital Product Design course or prior design experience"]}
+                            leadimg={teamlead}
+                        />
+                        <LearnRoleCard
+                            team="Design"
+                            name="Amanda Yang"
+                            description={["As a Product Designer on Cornell AppDev, you are a director of user experience. You take complex problems and create joy through elegant design solutions.", 
+                                           "You work on all stages of the design process, including user research, product thinking, iterating through feedback, prototyping, and user testing.",
+                                            "Working with developers, you design real apps used by real people everyday."]}
+                            recskills={["Some Experience with Figma, Setch, or Equivalent", "Completion of Intro to Digital Product Design course or prior design experience"]}
+                            leadimg={teamlead}
+                        />
                     </div>
 
                 </div>
 
                 
+
+            </div>
+
+            <div className="container-5">
+
+                <div className="large-quote-holder">
+                    <h className="apply-largetext">Don't just take it from us...</h>
+
+                    <div className="quote-holder">
+                        <img src={quotes}/>
+                        <h className="apply-smalltext">AppDev is hype! I learn so much everyday from my subteam lead and fellow members. I work on Eatery, which means my impact is really felt by students across the entire school. We're a family of friends who love to hang too! Some of my best memories in college are as a member of Cornell AppDev.</h>
+
+                        <div className="quote-person-holder">
+                            <img src={headshot}/>
+                            <h className="apply-largetext">Adam Kadhim</h>
+                            <h className="apply-graytext">Android - Eatery</h>
+
+                        </div>
+
+                    </div>
+                </div>
+
+ 
 
             </div>
     
