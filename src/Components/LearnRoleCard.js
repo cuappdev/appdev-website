@@ -63,22 +63,21 @@ export default class LearnMoreCard extends React.Component {
                  <div className="questions-holder">
                     <h3>Questions?</h3>
 
-                    <div className="question-lower">
+                    <div className="member-holder">
+
                       <img src={leadimg}/>
 
-                      <div className="question-lead">
-                        <h3>{team + " Lead"}</h3>
-                        <h2>{name}</h2>
-                        <div>
-                        <a className="external-link" href={url} target="_blank" rel="noreferrer">
-                            {"Schedule a Chat"}
-                        </a>
-                    </div>
+                      <div className="member-info-holder">
+                          <h3>{team + " Lead"}</h3>
+                          <h2>{name}</h2>
+                          <div>
+                            <a className="external-link" href={url} target="_blank" rel="noreferrer">
+                                {"Schedule a Chat"}
+                            </a>
+                          </div>
                       </div>
-                    </div>
 
-                    
-     
+                    </div>
                     
                  </div>
 

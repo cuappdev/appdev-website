@@ -1,6 +1,7 @@
 import React from "react";
 import LearnMoreCard from "../Components/LearnEventCard";
 import LearnRoleCard from "../Components/LearnRoleCard"
+import ChatMemberCard from "../Components/ChatMemberCard"
 
 
 import c1background from '../Images/applybackground.svg'
@@ -122,7 +123,7 @@ function Apply(props){
                         
                     </div>
 
-                    <div className="learnrole-cards">
+                    <div className="horizontal-scroll learnrole-cards">
                         <LearnRoleCard
                             team="Design"
                             name="Amanda Yang"
@@ -160,24 +161,74 @@ function Apply(props){
 
             <div className="container-5">
 
-                <div className="large-quote-holder">
-                    <h className="apply-largetext">Don't just take it from us...</h>
+              
+                <h className="apply-largetext">Don't just take it from us...</h>
 
-                    <div className="quote-holder">
+                <div className="quote-holder">
+
+                    <div className="quote-text-holder">
                         <img src={quotes}/>
                         <h className="apply-smalltext">AppDev is hype! I learn so much everyday from my subteam lead and fellow members. I work on Eatery, which means my impact is really felt by students across the entire school. We're a family of friends who love to hang too! Some of my best memories in college are as a member of Cornell AppDev.</h>
 
-                        <div className="quote-person-holder">
-                            <img src={headshot}/>
-                            <h className="apply-largetext">Adam Kadhim</h>
-                            <h className="apply-graytext">Android - Eatery</h>
+                    </div>
+                    
+                    <div className="quote-person-holder">
+                        <img src={headshot}/>
+                        <h className="apply-largetext">Adam Kadhim</h>
+                        <h className="apply-graytext">Android - Eatery</h>
+
+                    </div>
+
+                </div>
+
+                <div className="desktop-only">
+                    <div className="chatmember-holder">
+
+                        <h className="apply-largetext">Talk with our members yourself</h>
+                    
+
+                        <div className="horizontal-scroll chat-cards">
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
+                            <ChatMemberCard
+                                title="Design Lead"
+                                name="Amanda Yang"
+                                img={headshot}
+                            />
 
                         </div>
 
                     </div>
                 </div>
-
- 
+                
 
             </div>
     

@@ -66,6 +66,40 @@ p.card {
   .external-link:hover {
     text-decoration: underline;
   }
+
+  .member-holder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .member-info-holder {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2%;
+  }
+
+  .member-info-holder h3 {
+    font-family: "SF Compact Display Thin";
+    text-transform: uppercase;
+
+    color: #586069;
+
+    font-size: 16px;
+
+    margin-bottom: 5%;
+  }
+
+  .member-info-holder h2 {
+    font-family: "SF Pro Display Semibold";
+    font-size: 24px;
+    margin-top: -6%;
+    margin-bottom: 0;
+  }
+
+  .member-holder img {
+    border-radius: 50%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -86,5 +120,40 @@ p.card {
 
   .external-link:hover {
     text-decoration: underline;
+  }
+
+  .member-holder {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .member-info-holder {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 2%;
+  }
+
+  .member-info-holder h3 {
+    font-family: "SF Compact Display Thin";
+    text-transform: uppercase;
+
+    color: #586069;
+
+    font-size: 14px;
+
+    margin-bottom: 5%;
+  }
+
+  .member-info-holder h2 {
+    font-family: "SF Pro Display Semibold";
+    font-size: 18px;
+    margin-top: -6%;
+    margin-bottom: 0;
+  }
+
+  .member-holder img {
+    width: 15%;
+    border-radius: 50%;
   }
 }
