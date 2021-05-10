@@ -26,6 +26,14 @@
   font-family: "SF Pro Display";
   font-style: normal;
   font-weight: normal;
+  src: local("SF Pro Display"),
+    url("./Fonts/SF-Pro-Display.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Semibold";
+  font-style: normal;
+  font-weight: normal;
   src: local("SF Pro Display Semibold"),
     url("./Fonts/SF-Pro-Display-Semibold.woff") format("woff");
 }

@@ -1,0 +1,32 @@
+.learnmore_b.text {
+  font-family: "SF Compact Display Regular";
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1778f2;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-top: 6px;
+  margin: 0px;
+}
+.learnmore_o.text {
+  font-family: "SF Compact Display Regular";
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ca4238;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-top: 6px;
+  margin: 0px;
+  padding-left: 6px;
+}
+.learnmore.icon {
+  margin-left: 8px;
+}
