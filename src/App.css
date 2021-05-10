@@ -1,36 +1,49 @@
 @font-face {
-  font-family: 'SF Compact Display Medium';
+  font-family: "SF Compact Display Medium";
   font-style: normal;
   font-weight: normal;
-  src: local('SF Compact Display Medium'), url('./Fonts/SF-Compact-Display-Medium.woff') format('woff');
+  src: local("SF Compact Display Medium"),
+    url("./Fonts/SF-Compact-Display-Medium.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Compact Display Regular';
+  font-family: "SF Compact Display Regular";
   font-style: normal;
   font-weight: normal;
-  src: local('SF Compact Display Regular'), url('./Fonts/SF-Compact-Display-Regular.woff') format('woff');
+  src: local("SF Compact Display Regular"),
+    url("./Fonts/SF-Compact-Display-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Compact Display Thin';
+  font-family: "SF Compact Display Thin";
   font-style: normal;
   font-weight: normal;
-  src: local('SF Compact Display Thin'), url('./Fonts/SF-Compact-Display-Thin.woff') format('woff');
+  src: local("SF Compact Display Thin"),
+    url("./Fonts/SF-Compact-Display-Thin.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Pro Display Bold';
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Pro Display Semibold"),
+    url("./Fonts/SF-Pro-Display-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display Bold";
   font-style: normal;
   font-weight: bold;
-  src: local('SF Pro Display Bold'), url('./Fonts/SF-Pro-Display-Bold.otf') format('otf');
+  src: local("SF Pro Display Bold"),
+    url("./Fonts/SF-Pro-Display-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'SF Pro Display Medium';
+  font-family: "SF Pro Display Medium";
   font-style: normal;
   font-weight: 500;
-  src: local('SF Pro Display Medium'), url('./Fonts/SF-Pro-Display-Medium.otf') format('otf');
+  src: local("SF Pro Display Medium"),
+    url("./Fonts/SF-Pro-Display-Medium.woff") format("woff");
 }
 
 .App {
@@ -38,7 +51,7 @@
 }
 
 .App-header {
-  background-color: #EFF1F4;
+  background-color: #eff1f4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
