@@ -11,6 +11,7 @@ import subteamlogos from '../Images/subteamicons.svg'
 import quotes from '../Images/quotes.svg'
 import headshot from '../Images/amandayang.svg'
 import timeline from '../Images/applytimeline.svg'
+import timelinemobile from '../Images/timelinemobile.svg'
 
 import "../Components/css/Card.css";
 import "../Components/css/CourseTopicCard.css";
@@ -78,15 +79,23 @@ function Apply(props){
                     <div className="recruit-textblock">
                         <h className="apply-largetext">Fall 2020 Recruitment</h>
 
-                        <h className="apply-smalltext">Dont' worry, no jump scares here. We'll update this timeline as we figure out the details.</h>
+                        <h className="apply-smalltext">Don't worry, no jump scares here. We'll update this timeline as we figure out the details.</h>
                     </div>
 
 
                 </div>
-
-                <div className="apply-recruitment-timeline" style={{marginTop:'5%', paddingRight:'5%'}}>
-                    {/* <img src={timeline} style={{width:'100%'}}/> */}
+                <div className="desktop-only">
+                    <div className="apply-recruitment-timeline" style={{ marginLeft: '-6%', marginTop:'5%', paddingRight:'5%', paddingTop:'5%', paddingBottom:'10%'}}>
+                        <img src={timeline} style={{width:'100%'}}/>
+                    </div>
                 </div>
+
+                <div className="mobile-only">
+                    <div className="apply-recruitment-timeline" style={{marginTop:'-5%'}}>
+                        <img src={timelinemobile} style={{width:'50%', marginLeft: '30%'}}/>
+                    </div>
+                </div>
+                
 
                 <div className="apply-recruitment-mid container-3-padded">
 
@@ -161,68 +170,71 @@ function Apply(props){
 
             <div className="container-5">
 
-              
-                <h className="apply-largetext">Don't just take it from us...</h>
+                <div className="inner">
+                    <h className="apply-largetext">Don't just take it from us...</h>
 
-                <div className="quote-holder">
+                    <div className="quote-holder">
 
-                    <div className="quote-text-holder">
-                        <img src={quotes}/>
-                        <h className="apply-smalltext">AppDev is hype! I learn so much everyday from my subteam lead and fellow members. I work on Eatery, which means my impact is really felt by students across the entire school. We're a family of friends who love to hang too! Some of my best memories in college are as a member of Cornell AppDev.</h>
+                        <div className="quote-text-holder">
+                            <img src={quotes}/>
+                            <h className="apply-smalltext">AppDev is hype! I learn so much everyday from my subteam lead and fellow members. I work on Eatery, which means my impact is really felt by students across the entire school. We're a family of friends who love to hang too! Some of my best memories in college are as a member of Cornell AppDev.</h>
+
+                        </div>
+                        
+                        <div className="quote-person-holder">
+                            <img src={headshot}/>
+                            <h className="apply-largetext">Adam Kadhim</h>
+                            <h className="apply-graytext">Android - Eatery</h>
+
+                        </div>
 
                     </div>
-                    
-                    <div className="quote-person-holder">
-                        <img src={headshot}/>
-                        <h className="apply-largetext">Adam Kadhim</h>
-                        <h className="apply-graytext">Android - Eatery</h>
 
-                    </div>
 
                 </div>
 
+              
+                
                 <div className="desktop-only">
+
+                    
                     <div className="chatmember-holder">
 
                         <h className="apply-largetext">Talk with our members yourself</h>
                     
 
                         <div className="horizontal-scroll chat-cards">
+                            
                             <ChatMemberCard
                                 title="Design Lead"
                                 name="Amanda Yang"
                                 img={headshot}
                             />
+
                             <ChatMemberCard
                                 title="Design Lead"
                                 name="Amanda Yang"
                                 img={headshot}
                             />
+
                             <ChatMemberCard
                                 title="Design Lead"
                                 name="Amanda Yang"
                                 img={headshot}
                             />
+
                             <ChatMemberCard
                                 title="Design Lead"
                                 name="Amanda Yang"
                                 img={headshot}
                             />
+
                             <ChatMemberCard
                                 title="Design Lead"
                                 name="Amanda Yang"
                                 img={headshot}
                             />
-                            <ChatMemberCard
-                                title="Design Lead"
-                                name="Amanda Yang"
-                                img={headshot}
-                            />
-                            <ChatMemberCard
-                                title="Design Lead"
-                                name="Amanda Yang"
-                                img={headshot}
-                            />
+
 
                         </div>
 

@@ -42,7 +42,7 @@
   }
 
   .apply-largetext {
-    font-family: "SF Pro Display Semibold";
+    font-family: "SF Pro Display Bold";
     font-size: 32px;
 
     width: 300px;
@@ -153,6 +153,10 @@
     flex-direction: column;
     padding-top: 5%;
     align-items: center;
+  }
+
+  .container-5 .inner {
+    align-self: center;
   }
 
   .container-5 .quote-holder {
@@ -283,7 +287,7 @@
   }
 
   .apply-largetext {
-    font-family: "SF Pro Display Semibold";
+    font-family: "SF Pro Display Bold";
     font-size: 72px;
 
     text-align: center;
@@ -390,7 +394,10 @@
     display: flex;
     flex-direction: column;
     padding-top: 5%;
-    align-items: center;
+  }
+
+  .container-5 .inner {
+    align-self: center;
   }
 
   .container-5 .quote-holder {
