@@ -26,8 +26,6 @@ function Blob(props){
     });
   })
   
-  console.log(props.color !== undefined)
-
   if(props.color !== undefined){
     return(
       <div >

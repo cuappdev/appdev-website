@@ -6,6 +6,9 @@ import "../Components/css/Blobs.css"
 import Blob from "../Components/Blob"
 import Button from "../Components/Button";
 import CourseTopicCard from "../Components/CourseTopicCard";
+import CoursePreview from "../Components/CoursePreview";
+import AndroidClass from "../Images/AndroidClass.svg";
+
 import HackChallengeCard from "../Components/HackChallengeCard";
 import hackChallengeMockup from "../Images/hack-challenge.png";
 import mockup from "../Images/mockup.png";
@@ -96,6 +99,7 @@ export default function Home() {
           description="Learn how to find the right problem space, do real user reserach, and ideate a variety of solutions using industry processes."
           img={mockup}
         />
+        <CoursePreview courseName="Android Development" image={AndroidClass} url="https://www.figma.com/file/THknYoPKbXzVkaClxGcX2j/Website-MVP?node-id=121%3A1947"/>
       </header>
     </div>
   );
