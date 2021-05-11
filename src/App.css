@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: normal;
   src: local("SF Compact Display Regular"),
-    url("./Fonts/sf-compact-display-regular.woff") format("woff");
+    url("./Fonts/SF-Compact-Display-Regular.woff") format("woff");
 }
 
 @font-face {
