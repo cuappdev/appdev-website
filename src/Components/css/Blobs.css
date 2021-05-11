@@ -1,8 +1,0 @@
-.blob_parent {
-  display: grid;
-}
-
-.blob_parent div {
-  grid-column: 1;
-  grid-row: 1;
-}
