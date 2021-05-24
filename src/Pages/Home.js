@@ -83,6 +83,11 @@ export default function Home() {
             onClick={() => alert("Shhh! Web app in progress")}
             color="#D07000"
           />
+          <Button
+            text="Team Leads"
+            type="bw"
+            onClick={() => alert("Black White")}
+          />
         </div>
         <HackChallengeCard
           award="Overall Winner"

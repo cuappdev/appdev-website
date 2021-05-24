@@ -1,11 +1,11 @@
 .button.primary {
-  cursor:pointer;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px 24px;
   border-radius: 100px;
-  border: 0px solid #CA4238;
+  border: 0px solid #ca4238;
   background-color: transparent;
   text-transform: uppercase;
   font-size: 20px;
@@ -13,20 +13,20 @@
   line-height: 23px;
   box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5);
   margin: 0px 12px;
-  background: #CA4238;
-  color: #FAFAFA;
+  background: #ca4238;
+  color: #fafafa;
 }
- 
+
 .button.primary:hover {
-  filter:saturate(70%)
+  filter: saturate(70%);
 }
- 
+
 .button.secondary:hover {
   text-decoration: underline;
 }
- 
+
 .button.secondary {
-  cursor:pointer;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -37,14 +37,14 @@
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #CA4238;
+  color: #ca4238;
   background: none;
-  border:none;
+  border: none;
   margin: 0px 8px;
 }
- 
+
 .button.nav {
-  cursor:pointer;
+  cursor: pointer;
   position: static;
   padding: 8px 16px;
   font-family: "SF Compact Display Medium";
@@ -58,12 +58,37 @@
   border: none;
   color: #050505;
 }
- 
+
 .button.nav.selected {
-  background: #FAECEB;
-  color: #CA4238;
+  background: #faeceb;
+  color: #ca4238;
 }
 
 .button.nav:hover {
-  background: #E1E4E8;
+  background: #e1e4e8;
+}
+
+.button.bw {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 100px;
+  border: 0px solid #050505;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "SF Compact Display Medium";
+  line-height: 23px;
+  font-weight: 500;
+  box-shadow: 0px 4px 28px rgba(149, 157, 165, 0.5);
+  margin: 0px 12px;
+  color: #fafafa;
+  background: #050505;
+}
+.button.bw.selected {
+  background: #d1d5da;
+  opacity: 0.48;
+  color: #050505;
 }
